@@ -7,5 +7,5 @@ https://blog.naver.com/choiji320/222831783707
 
 ## 읽은 논문 list
 
-####GAN(2014/(https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf)
+GAN(2014/(https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf)
 
