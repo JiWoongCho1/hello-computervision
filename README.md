@@ -1,5 +1,5 @@
 
-## G_Paper-Code_Review
+## Gerative Model_Paper-Code_Review
 - GAN(Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/GAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1406.2661">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/8"> Paper Review</A>
 
 - DCGAN(Deep Convolutional Generative Adversarial Network, 2016) : Code ,</A>  <A href = "https://arxiv.org/abs/1511.06434">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/10"> Paper Review</A>
