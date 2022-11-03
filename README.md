@@ -2,9 +2,9 @@
 ## Generative Model_Paper-Code_Review
 - GAN(Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/GAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1406.2661">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/8"> Paper Review</A>
 
-- DCGAN(Deep Convolutional Generative Adversarial Network, 2016) : Code ,</A>  <A href = "https://arxiv.org/abs/1511.06434">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/10"> Paper Review</A>
+- DCGAN(Deep Convolutional Generative Adversarial Network, 2016) : <A href = "https://github.com/JiWoongCho1/Gernerative-Model_Paper_Review/blob/main/DCGAN.ipynb">Code ,</A>  <A href = "https://arxiv.org/abs/1511.06434">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/10"> Paper Review</A>
   
-- cGAN(Conditional Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/cGAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1411.1784">  논문 링크 </A> <A href = "https://keepgoingrunner.tistory.com/12"> Paper Review</A>
+- cGAN(Conditional Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/cGAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1411.1784">  Paper Review </A> <A href = "https://keepgoingrunner.tistory.com/12"> Paper Review</A>
   
 - AutoEncoder(2011) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/AutoEncoder.ipynb"> Code</A>  
   
