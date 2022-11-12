@@ -9,6 +9,8 @@
 - LSGAN(Least Square Generative Adversarial Network, 2017) : Code ,</A>  <A href = "https://arxiv.org/abs/1611.04076">  Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/21"> Paper Review</A>
 
 - InfoGAN(Information Maximizing Generative Adversarial Network, 2016) : Code ,</A>  <A href = "https://arxiv.org/abs/1606.03657">  Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/27"> Paper Review</A>
+
+- WGAN(Wasserstein GAN, 2017) : Code ,</A>  <A href = "https://arxiv.org/abs/1701.07875">  Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/32"> Paper Review</A>
   
 - AutoEncoder(2011) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/AutoEncoder.ipynb"> Code</A>  
   
