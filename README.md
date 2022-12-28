@@ -20,7 +20,7 @@
 
 - AutoEncoder(2011) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/AutoEncoder.ipynb"> Code</A>  
   
-- StyleTransfer(2015) : <A href = "https://github.com/JiWoongCho1/GAN/blob/main/Style_Transfer.ipynb"> Code ,</A>  <A href = "https://arxiv.org/pdf/1508.06576.pdf">  논문 링크 </A>
+- StyleTransfer(2015) : <A href = "https://github.com/JiWoongCho1/GAN/blob/main/Style_Transfer.ipynb"> Code ,</A>  <A href = "https://arxiv.org/pdf/1508.06576.pdf">  Paper Link </A> <A href = "https://keepgoingrunner.tistory.com/61"> Paper Review</A>
   
 - AdaIN Style Transfer(Adaptive Instance Normalization, 2017) : <A href = "https://github.com/JiWoongCho1/GAN/blob/main/AdaIN%20Style%20Transfer.ipynb"> Code ,</A>   <A href = "https://arxiv.org/abs/1703.06868">  논문 링크 </A>
 
