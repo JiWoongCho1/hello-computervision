@@ -18,7 +18,7 @@
   
 - Pix2Pix(Image to Image Translation with Conditional Adversarial Networks, 2016) :<A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/Pix2Pix.ipynb"> Code ,</A>  <A href = "https://arxiv.org/pdf/1611.07004.pdf"> Paper Link, </A>  <A href = "https://keepgoingrunner.tistory.com/46"> Paper Review</A>
 
-- AutoEncoder(2011) :<A href = "https://github.com/JiWoongCho1/GAN/blob/main/AutoEncoder.ipynb"> Code</A>  
+- AutoEncoder(2011) :<A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/AutoEncoder.ipynb"> Code</A>  
   
 - StyleTransfer(2015) : <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/Style_Transfer.ipynb"> Code ,</A>  <A href = "https://arxiv.org/pdf/1508.06576.pdf">  Paper Link </A> <A href = "https://keepgoingrunner.tistory.com/61"> Paper Review</A>
   
