@@ -29,7 +29,7 @@
 - Attention(Neural Machine Translation By Jointly Learning to Align and translate, 2015) : Code ,</A>  <A href = "https://arxiv.org/abs/1409.0473">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
 
 ## Classification
-- Lenet(Gradient Based Learning Applied to Document Recognition, 1998) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/Lenet/Lenet.ipynb"> Code ,</A>  <A href = "http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
+- Lenet(Gradient Based Learning Applied to Document Recognition, 1998) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/Lenet/Lenet.ipynb"> Code ,</A>  <A href = "http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/Lenet"> Paper Review</A>
 
 
 
