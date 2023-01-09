@@ -8,7 +8,7 @@ In my code, do my best to implement to original structure of the Lenet-5. But un
 
 And i visualize the kernel of each layers and feature maps that pass through the features. I think this is helpful for understaning the convolutional layers. 
 
-They adapted the gradient based learning for minimizing the loss much easily and small variations.
+In paper, They adapted the gradient based learning for minimizing the loss much easily and small variations.
 
 Also they trained with multi layer networks with complexity, high dimensional. In this structure it combines three architectural ideas to ensure some degree of shift scale, and distortion invariance: local receptive fields, shared weights, sub-sampling.
 
