@@ -32,7 +32,7 @@
 - Lenet(Gradient Based Learning Applied to Document Recognition, 1998) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/Lenet/Lenet.ipynb"> Code ,</A>  <A href = "http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/Lenet"> Paper Review</A>
 - AlexNet(ImageNet Classfication with Deep Convolutional Neural Networks, 2012) <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/AlexNet"> Code, </A> <A href = "https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/AlexNet"> Paper Review</A> 
 
-- VGGNet(Very Deep Convolutional Networks for Large Scale Image Resoultion, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/Lenet/Lenet.ipynb"> Code, </A> <A href = "https://arxiv.org/pdf/1409.1556.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/VGGNet"> Paper Review</A> 
+- VGGNet(Very Deep Convolutional Networks for Large Scale Image Resoultion, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/VGGNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.1556.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/VGGNet"> Paper Review</A> 
 
 
 
