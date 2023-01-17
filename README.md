@@ -36,7 +36,7 @@
 
 - GoogleNet(Going deeper with convolutions, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/GoogleNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.4842.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/GoogleNet"> Paper Review</A> 
 
-- ReseNet(Deep residual Learning for Image Recognition, 2016) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ResNet"> Code, </A> <A href = "https://arxiv.org/abs/1512.03385">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ReesNet"> Paper Review</A> 
+- ReseNet(Deep residual Learning for Image Recognition, 2016) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ResNet"> Code, </A> <A href = "https://arxiv.org/pdf/1512.03385.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ReesNet"> Paper Review</A> 
 
 
 
