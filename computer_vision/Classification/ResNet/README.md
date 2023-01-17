@@ -20,5 +20,7 @@ When they construct the 34 layers architecture, they use basic block but constru
 ![comparison-18-34](https://user-images.githubusercontent.com/90513931/212635895-99c718d6-696d-45ac-909a-5dd21dc878a1.png)
 
 
+
 first paper of ResNet, Shorcut is implemented to (a) but later, (e) is the best shortcut connection in model.  
+
 ![type of shorcut](https://user-images.githubusercontent.com/90513931/212832092-5a6b89ce-ebfa-4e56-842b-270a4dabbbf2.png)
