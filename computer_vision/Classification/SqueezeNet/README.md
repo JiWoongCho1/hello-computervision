@@ -27,6 +27,10 @@ K.He and H.Sun applied delayed down-sampling to four different CNN architectures
 
 ### Fire module ###
 
+it is composed of 'squeeze' convolutional layer(which has only 1x1 filter), feeding tinto an 'expand' layer that has a mix of 1x1 and 3x3 convolution filters. They expose three tunable dimensions. And they use ReLU, Dropout, not using fully connected layers.
 
+### Conclusion ###
+
+The goal was to compress an AlexNet and get the competitive accuracy. Finally they achieved a 50x reduction in model size compared to AlexNet while meeting of exceeding the top-1, top-5 accuracy of AlexNet. Additionally they note that model consists of 3x3 filters 99% not yield not good accuracy. 
 
 
