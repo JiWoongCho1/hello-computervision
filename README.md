@@ -40,6 +40,8 @@
 
 - SqueezeNet(Alexnet-Level accuracy with 50x fewer parameters and 0.5MB model size, 2017) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/SqueezeNet"> Code, </A> <A href = "https://arxiv.org/pdf/1602.07360.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SqueezeNet"> Paper Review</A> 
 
+- DenseNet(Densely Connected Convolutional Networks, 2017) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/DenseNet"> Code, </A> <A href = "https://arxiv.org/pdf/1608.06993.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/DenseNet"> Paper Review</A> 
+
 
 
 
