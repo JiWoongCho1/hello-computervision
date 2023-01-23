@@ -1,5 +1,5 @@
 
-## Generative Model_Paper-Code_Review
+## Generative Model
 - GAN(Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/GAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1406.2661">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/8"> Paper Review</A>
 
 - DCGAN(Deep Convolutional Generative Adversarial Network, 2016) : <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/DCGAN.ipynb">Code ,</A>  <A href = "https://arxiv.org/abs/1511.06434">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/10"> Paper Review</A>
@@ -28,7 +28,7 @@
 ## NLP(National Language Processing)
 - Attention(Neural Machine Translation By Jointly Learning to Align and translate, 2015) : Code ,</A>  <A href = "https://arxiv.org/abs/1409.0473">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
 
-## Classification
+## Image Classification
 - Lenet(Gradient Based Learning Applied to Document Recognition, 1998) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/Lenet/Lenet.ipynb"> Code ,</A>  <A href = "http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/Lenet"> Paper Review</A>
 - AlexNet(ImageNet Classfication with Deep Convolutional Neural Networks, 2012) <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/AlexNet"> Code, </A> <A href = "https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/AlexNet"> Paper Review</A> 
 
