@@ -18,7 +18,7 @@ They chose to make the majority of 1x1 filters, since a 1x1 filter has 9x fewer 
 
 **2. Decrease the number of input channels to 3x3 filters**
 
-The total quantity of parameters is (number of input channels) x (number of filters) x (3 x 3). So they decreased thety number of input channels to 3x3 filters using squeeze layers.
+The total quantity of parameters is (number of input channels) x (number of filters) x (3 x 3). So they decreased the number of input channels to 3x3 filters using squeeze layers.
 
 **3. Downsample late in the network so that convolution layers have large activation**
 
