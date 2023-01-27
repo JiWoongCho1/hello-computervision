@@ -46,6 +46,8 @@
 
 - MobileNetV1(MobileNets: Efficient Convolutional Neural networks for mobile vision application, 2017) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/MobileNetV1"> Code, </A> <A href = "https://arxiv.org/pdf/1704.04861.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/MobileNetV1"> Paper Review</A> 
 
+- ShuffleNet(ShuffleNet: An extremlely efficient convolutional neural networks for mobile devices, 2017) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ShuffleNet"> Code, </A> <A href = "https://arxiv.org/pdf/1707.01083.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ShuffleNet"> Paper Review</A> 
+
 
 
 
