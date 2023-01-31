@@ -1,6 +1,6 @@
 ## DenseNet
 
-As CNNs become increasingly deep, a new research problem emerges. Weights and informations are pass through many layers and it can vanish and 'wash out' by the time it reaches the end of the network. So in this paper, they proposed a architecture to ensure maximum information flow between layers in the network, they connected all layers. This method is similart to ResNet, but they never combine features through summation before they are passed into a layer, they combine features by concatenation them, they refered to this approach as _Dense Convolutional Network_ 
+As CNNs become increasingly deep, a new research problem emerges. Weights and informations are pass through many layers and it can vanish and 'wash out' by the time it reaches the end of the network. So in this paper, they proposed a architecture to ensure maximum information flow between layers in the network, they connected all layers. This method is similar to ResNet, but they never combine features through summation before they are passed into a layer, they combine features by concatenation them, they refered to this approach as _Dense Convolutional Network_ 
 
 <img width="339" alt="architecture" src="https://user-images.githubusercontent.com/90513931/213763955-b7ad5409-e868-44d0-a165-5c421d10be19.png">
 
@@ -8,7 +8,7 @@ This architecture requires fewer parameters than tranditional convolutioanl(in p
 
 In contrast, ResNet did the identity function and the output are combined by summation, which may impede the information flow in the network.
 
-To faclitate down-sampling in theirt architecture, they divide the network into multiple densely connected _dense blocks_. They refer to layers between blocks as _transition layers_, which do convolution and pooling.
+To faclitate down-sampling in their architecture, they divide the network into multiple densely connected _dense blocks_. They refer to layers between blocks as _transition layers_, which do convolution and pooling.
 
 To further improve model compactness, they reduced the number of feature-maps at transition layers. (In paper, denoting theta, 1 is unchanged)
 
