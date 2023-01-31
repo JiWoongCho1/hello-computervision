@@ -50,7 +50,10 @@
 
 - MobileNetV2(MobileNetV2: Inverted residual and linear bottlenecks, 2018) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/MobileNetV2"> Code, </A> <A href = "https://arxiv.org/pdf/1801.04381.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/MobileNetV2"> Paper Review</A>
 
-- Squeeze Excitation Network(Squeeze and Excitation Network, 2018) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/SENet"> Code, </A> <A href = "https://arxiv.org/pdf/1709.01507.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SENet"> Paper Review</A> 
+- Squeeze Excitation Network(Squeeze and Excitation Network, 2018) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/SENet"> Code, </A> <A href = "https://arxiv.org/pdf/1709.01507.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SENet"> Paper Review</A>
+
+- Residual Attention Network(Residual Attention Network for image classification, 2017) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ResidualAttentionNet"> Code, </A> <A href = "https://arxiv.org/pdf/1704.06904.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ResidualAttentionNet"> Paper Review</A> 
+
 
 
 
