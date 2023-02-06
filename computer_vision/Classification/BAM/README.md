@@ -2,9 +2,12 @@
 
 A fundamental approach to boost performance is to design a good backbone archcitecture. The most intuitive way to boost the network performance is to stack more layers. Deep neural networks then are able to approximate high dimensional function using their deep layers. Apart from the tranditional approaches, authors investigate the effect of _attention_ in DNNs, and propose a simple, light-weight module for general DNNs. That is, the propsed module is designed for easy integration with existing CNN architectures. While most of the previous works use attention with task-specific purposes, they explicitly investigate the use of attention as a way to imporve network's representation power in an extremely efficient way. As a result they propose "Bottleneck Attention Module" a simple and efficient attention module that can be used in any CNNs. As the channels of feature maps can be regarded as feature detectors, the two branches explicitly learn 'what' and 'where' to focus on.
 
-In order to efficiently and adpatively process visual information, human visual systems iteratively process spatial glimpses and focus on salient areas. 'Squeeze and Excitation' module is also similar but it misses the spatial axis, which is important factor in inferring accurate attention map. 
 
 ![architecture](https://user-images.githubusercontent.com/90513931/216559212-e19bd48a-1717-4623-9b8f-2336ffa2f623.png)
+
+
+In order to efficiently and adpatively process visual information, human visual systems iteratively process spatial glimpses and focus on salient areas. 'Squeeze and Excitation' module is also similar but it misses the spatial axis, which is important factor in inferring accurate attention map. 
+
 
 #### Channel attention branch
 
