@@ -60,6 +60,7 @@
 
 - CBAM(CBAM: Convolutional Block Attention Module, 2018) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/CBAM"> Code, </A> <A href = "https://arxiv.org/pdf/1807.06521.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/CBAM"> Paper Review</A> 
 
+- EfficientNet(EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, 2019) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/EfficientNet"> Code, </A> <A href = "https://arxiv.org/pdf/1905.11946.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/EfficientNet"> Paper Review</A> 
 
 
 
