@@ -23,3 +23,8 @@ They empirically observe that different scaling dimensions are not independent. 
 These results lead that it is critical to balance all dimensions of network width, depth, and resolution during Network scaling.
 
 So they propose a new compound scaling method, which use a compound corffcient θ to unformly scales network width, depth, resolution in a principled way, where alpha, beta, gamma are constants that can be determined by a small grid search.
+
+
+They evaluate their scaling method using existing Bets, but in order to better demonstrate the effectiveness of their scalin method, they have also developed a new mobile size baseline, called EfficientNet. Since they use the same search space, the architecture is similar to MnasNet, except their EfficientNet-B0 is slightly bugger due to the larger FLOPS target. Notably, it is possible to achieve even better performance by searching for alpha, beta, gamma directly around a large model, but the search cost becomes prohibitively more expensive on larget models, suggersting the effectiveness of their proposed scaling method for general existing Nets.
+
+To disentangle the contribution of their porposed scaling method from the EfficientNet architecture, this table compares the performance of different scaling methods for the same baseline network. In general, all scaling methods improve accuracy with the cost of more FLOPS, but their compound scaling method can further improve accuracy, by up to 2.5%, than other single dimension scaling methods, suggesting the importance of their proposed compound scaling.
