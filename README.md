@@ -68,6 +68,8 @@
 
 - Hybrid Swin Transformer(Hybrid Swin Transformer: Efficient large-scale image retrieval with deep feature orthogonality and Hybrid-Swin-Transformers, 2021) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/HybridSwinTransformer"> Code, </A> <A href = "https://arxiv.org/pdf/2110.03786.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/HybridSwinTransformer"> Paper Review</A> 
 
+- ConvNext(A ConvNext for the 2020s, 2022) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ConvNext"> Code, </A> <A href = "https://arxiv.org/pdf/2201.03545.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNext"> Paper Review</A> 
+
 
 
 
