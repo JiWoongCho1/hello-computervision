@@ -7,6 +7,8 @@ A naive implementation of sliding window self-attention can be expensive; with a
 
 To comparing performances, they set the starting point is a ResNet-50. They then study a series of design decision which they summarized as 1) macro design, 2) ResNext, 3) inverted bottleneck, 4) large kernel size, and 5) various layer wise migcro designs. Apart from the design of network architectures, the training proceduce also affects the ultimate performance. Recent studies demonstrate that a set of modern ntraining techniques can significantly enhance the performance of a simple ResNet-50. By itself, thos enhaced trainign recipe increased the performance of the ResNet-50 model frm 76.1% to 78.8%, implying that a significant portion of the performance difference between tranditional CNNs and ViT may be due to the training techniques.
 
+![comparison model](https://user-images.githubusercontent.com/90513931/219283848-b3d6897a-501a-47c7-a427-c83752c524a2.png)
+
 
 
 #### Macro Design
