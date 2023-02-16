@@ -37,6 +37,8 @@ Rectified Linear Unit(ReLU) is still extensively used in CNNs due to its simplic
 
 One minor distinctin between a Transformer and a Resnet block is that Transformers have fewer activation functions. So they examine how performance changes when they stick to the same strategy. They eliminate all GELU layers from the residual block except for one between two 1x1 layers, replicating the style of a Transformer block. This process improves the result by 0.7% to 81.3%, pratically matching the performance of Swin-T. 
 
+![applying technique](https://user-images.githubusercontent.com/90513931/219283556-18104a8b-9b8c-43b8-b253-e32212b5d305.png)
+
 Transformer blocks usually have fewer normailzation layers as well. Here they remove two BatchNorm layers, leaving only on BN layer before the conv 1x1 layers. As empirically they find that adding one additional BN layer at the beginning of the block doew not improve the performance. 
 
 BatchNorm is an essential component in CNNs as it improves the convergence and reduces overfitting. However, BN also has many intricacies that can have a detrimental effect on the model's performance. On the other hand, the simpler Layer Normalization has been used in  Transformers, resulting in good performance across different application scenarios. Directly substituting LN for BN in the original ResNet will result in suboptimal performance. The performance is slightly better, obtaining an accuracy of 81.5%. 
@@ -46,8 +48,13 @@ In Swin Transformers, a separate downsampling layer is added between stages. The
 
 This figure shows the comparison to the models. Without specialized modules such as shifted windows or relative position bias, ConvNeXt also enjoy improved throughput compared to Swin Transformers.
 
+![classification accuracy](https://user-images.githubusercontent.com/90513931/219283558-248491f8-2a5b-4a06-939d-e9c7f207cd4a.png)
 
-THey finetune Mask R-CNN and cascade Mask R-CNN on the COCO dataset with ConvNeXt backbones. Next figure shows object detection and instance segmentation results comparing Swin Transformer, ConvNeXt, and tranditional CNNs such as REsNeXt. We can note that ConvNeXt achieves on-par or better performance than Swin Transformer.
+
+They finetune Mask R-CNN and cascade Mask R-CNN on the COCO dataset with ConvNeXt backbones. Next figure shows object detection and instance segmentation results comparing Swin Transformer, ConvNeXt, and tranditional CNNs such as REsNeXt. We can note that ConvNeXt achieves on-par or better performance than Swin Transformer.
+
+![detection accuracy](https://user-images.githubusercontent.com/90513931/219283553-ac2cbaec-9e83-4e16-8a0a-c5af63e33a3f.png)
+
 
 In comparision to vanila ViT, both ConvNeXt and Swin Transformer exhibit a more favorable accuracy FLOPs trade-off due to the local computations. It is worth noting that this improved efficiency is a result of the _CNNs inductive bias_, and is not directly related to the self-attention mechanism in vision Transformers.
 
