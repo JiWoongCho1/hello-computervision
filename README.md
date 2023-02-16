@@ -60,7 +60,7 @@
 
 - CBAM(CBAM: Convolutional Block Attention Module, 2018) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/CBAM"> Code, </A> <A href = "https://arxiv.org/pdf/1807.06521.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/CBAM"> Paper Review</A> 
 
-- EfficientNet(EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, 2019) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/EfficientNet"> Code, </A> <A href = "https://arxiv.org/pdf/1905.11946.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/EfficientNet"> Paper Review</A>
+- EfficientNet(EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, 2019) <A href = "https://github.com/lukemelas/EfficientNet-PyTorch"> Code, </A> <A href = "https://arxiv.org/pdf/1905.11946.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/EfficientNet"> Paper Review</A>
 
 - Vision Transformer(An Image is worth 16x16 words: Transformers for image recognition at scale, 2020) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/VisionTransformer"> Code, </A> <A href = "https://arxiv.org/pdf/2010.11929.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/VisionTransformer"> Paper Review</A>
 
@@ -68,7 +68,7 @@
 
 - Hybrid Swin Transformer(Hybrid Swin Transformer: Efficient large-scale image retrieval with deep feature orthogonality and Hybrid-Swin-Transformers, 2021) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/HybridSwinTransformer"> Code, </A> <A href = "https://arxiv.org/pdf/2110.03786.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/HybridSwinTransformer"> Paper Review</A> 
 
-- ConvNext(A ConvNet for the 2020s, 2022) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ConvNext"> Code, </A> <A href = "https://arxiv.org/pdf/2201.03545.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNext"> Paper Review</A> 
+- ConvNext(A ConvNet for the 2020s, 2022) <A href = "https://github.com/facebookresearch/ConvNeXt"> Code, </A> <A href = "https://arxiv.org/pdf/2201.03545.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNext"> Paper Review</A> 
 
 - ConvNextV2(ConvNextV2 , 2022) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ConvNextV2"> Code, </A> <A href = "https://arxiv.org/pdf/2301.00808.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNextV2"> Paper Review</A> 
 
