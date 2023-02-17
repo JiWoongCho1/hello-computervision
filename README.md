@@ -70,7 +70,7 @@
 
 - ConvNext(A ConvNet for the 2020s, 2022) <A href = "https://github.com/facebookresearch/ConvNeXt"> Code, </A> <A href = "https://arxiv.org/pdf/2201.03545.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNext"> Paper Review</A> 
 
-- ConvNextV2(ConvNextV2 , 2022) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ConvNextV2"> Code, </A> <A href = "https://arxiv.org/pdf/2301.00808.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNextV2"> Paper Review</A> 
+- ConvNextV2(ConvNextV2: Co-designing and Scaling ConvNets with Masked Autoencoders, 2022) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ConvNextV2"> Code, </A> <A href = "https://arxiv.org/pdf/2301.00808.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNextV2"> Paper Review</A> 
 
 
 
