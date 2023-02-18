@@ -19,7 +19,7 @@ They used the two GPUs. The parallelization scheme that they employ essentially 
 
 
 #### _Local Response Normalization_
-ReLUs have the desirable property that they do not require input normalization to prevent them from santurating.But they did implement the normalization. This sort of response normalization implements a form of lateral inhibition inspired by the type found in real neurons, creating compeetition for big activities amongst neuron outpus computed using different kernels. 
+ReLUs have the desirable property that they do not require input normalization to prevent them from santurating.But they did implement the normalization. This sort of response normalization implements a form of lateral inhibition inspired by the type found in real neurons, creating competition for big activities amongst neuron outpus computed using different kernels. 
 
 ![LocalResponseNorm](https://user-images.githubusercontent.com/90513931/211596424-68a592af-6904-457f-843c-17600fd20ae2.png)
 
