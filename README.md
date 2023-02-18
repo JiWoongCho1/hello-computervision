@@ -75,7 +75,7 @@
 
 ## Object Detection
 
-- R-CNN(Rich feature hierarchies for accurate object detection and semantic segmentation, 2013) <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Obejct Detection/R-CNN"> Code, </A> <A href = "https://arxiv.org/pdf/1311.2524.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Obejct Detection/R-CNN"> Paper Review</A> 
+- R-CNN(Rich feature hierarchies for accurate object detection and semantic segmentation, 2014) <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Obejct Detection/R-CNN"> Code, </A> <A href = "https://arxiv.org/pdf/1311.2524.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Obejct Detection/R-CNN"> Paper Review</A> 
 
 
 
