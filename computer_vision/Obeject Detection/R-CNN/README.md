@@ -4,7 +4,9 @@ The centreal issue can be distilled to the following: To what extent do the CNN 
 
 
 They solve CNN localization problem by operating within the "recognition using regions" paradigm, which has been successful for both object detection and semantic segmentation. And they use a simple technique(affine image warpig) to compute a fixed-size CNN input from each region proposal, regardless of the region's shape. This figure presents an overview of their method and highlights some of their results. Since their system combines region proposal with CNNs, they dub the method R-CNN, Region with CNN features.
-(figure1)
+
+![overview](https://user-images.githubusercontent.com/90513931/220125963-5dad1dce-6998-4339-937e-0d9dbfb0f8c8.png)
+
 
 Next challenge faced in detection is that labeled data is scarece and the amount the currently available is insufficient for training a large CNN. The conventional solution to this problem is to use _unsupervised_ pre-training, followed by supervised fine tuning.The second principle contribution of this paper is to show that _supervised_ pre-training on a large auxiliary database(ILSVRC), followed by domain specifi fine-tuning on a small dataset(PASCAL), is an effective paradigm for learning high-capacity CNNs when data is scarece. This system is also quite efficient because the only class-specific computations are a reasonably small matrix-vetor product and greedy non maximum suppression. They note that because R-CNN operates on regions it is natural to extend it to the task of semantic segmentation. With minor modifications, they also acheive competitive results on the PASCAL VOC segmentation task, with an average segmentation accuracy of 47.9% on the VOC 2011 test set.
 
@@ -20,3 +22,5 @@ At test time, they run selective search on the test timage to extract around 200
 
 
 They now look at results from their CNN after having fine-tuned its parameters on VOC 2007 trainval. The improvement is striking: fine-tuning increases mAP by 8.0 percentage points to 54.2%. Most results in this paper use the network architecture from AlexNet. However, the have found that the choice of architecture has a large effect on R-CNN detection performance. 
+
+![comparison](https://user-images.githubusercontent.com/90513931/220125974-8a2bc682-d0a6-4b2d-be2e-4f612baa21fe.png)
