@@ -34,6 +34,8 @@
 
 - VGGNet(Very Deep Convolutional Networks for Large Scale Image Resoultion, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/VGGNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.1556.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/VGGNet"> Paper Review</A>
 
+- SPPNet(Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, 2014) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/SPPNet"> Code, </A> <A href = "https://arxiv.org/pdf/1406.4729.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SPPNet"> Paper Review</A>
+
 - GoogleNet(Going deeper with convolutions, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/GoogleNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.4842.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/GoogleNet"> Paper Review</A> 
 
 - ResNet(Deep residual Learning for Image Recognition, 2016) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/ResNet"> Code, </A> <A href = "https://arxiv.org/pdf/1512.03385.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ResNet"> Paper Review</A>
