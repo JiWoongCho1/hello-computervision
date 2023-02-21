@@ -1,7 +1,7 @@
 ## Fast R-CNN
 
 
-Compared to image classification, object detection is a more challenging task that requires more complex methods to solve. Complexity arises because detection requires the accurate localization of objects, creating two primary challenges. First, numerous candidate object locations(region proposals) must be processed. Second, these candidates provide only rough localization that must be refined to achieve precise localization. Solutions to these problems often compromise speed, accuracy, or simplicity. In this paper, they streamline the training process for state-of-the-art ConvNet-based object detectors. They propose a single stage training algorithm that jointly learns to classiffy object proposals and refine their spatial locations. 
+Compared to image classification, object detection is a more challenging task that requires more complex methods to solve. Complexity arises because detection requires the accurate localization of objects, creating two primary challenges. First, numerous candidate object locations(region proposals) must be processed. Second, these candidates provide only rough localization that must be refined to achieve precise localization. Solutions to these problems often compromise speed, accuracy, or simplicity. In this paper, they streamline the training process for state-of-the-art ConvNet-based object detectors. They propose a single stage training algorithm that jointly learns to classify object proposals and refine their spatial locations. 
 
 The R-CNN achieves excellent object detection accuracy by using a deep ConvNet to classify object proposals. R-CNN, however, has notable drawbacks: 1) Training is a multi stage pipeline. 2) Training is expensive in space and time. 3) Object detection is slow.
 
