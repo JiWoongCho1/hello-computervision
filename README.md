@@ -81,7 +81,7 @@
 
 - Fast R-CNN(Fast R-CNN, 2015) <A href = "https://github.com/rbgirshick/fast-rcnn"> Code, </A> <A href = "https://arxiv.org/pdf/1504.08083.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/Fast%20R-CNN"> Paper Review</A> 
 
-- Faster R-CNN(Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015) <A href = https://github.com/jwyang/faster-rcnn.pytorch"> Code, </A> <A href = "https://arxiv.org/pdf/1506.01497.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/Faster%20R-CNN"> Paper Review</A>
+- Faster R-CNN(Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015) <A href = "https://github.com/jwyang/faster-rcnn.pytorch"> Code, </A> <A href = "https://arxiv.org/pdf/1506.01497.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/Faster%20R-CNN"> Paper Review</A>
 
 
 
