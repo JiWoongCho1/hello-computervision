@@ -85,6 +85,8 @@
 
 - YOLO v1(You Only Look Once: Unified, Real-Time Object Detection, 2015) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1506.02640.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/YOLO"> Paper Review</A>
 
+- SSD(SSD: Single Shot MultiBox Detector, 2015) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1512.02325.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
+
 
 
 
