@@ -88,6 +88,7 @@
 - SSD(SSD: Single Shot MultiBox Detector, 2015) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1512.02325.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
 
 
+## Segmentation
 
-
+- Deeplab V1(SEMANTIC IMAGE SEGMENTATION WITH DEEP CONVOLUTIONAL NETS AND FULLY CONNECTED CRFS, 2014) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = https://arxiv.org/pdf/1412.7062.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
 
