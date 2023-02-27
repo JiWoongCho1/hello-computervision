@@ -17,7 +17,7 @@ The RoI pooling layer uses max pooling to convert the features inside any valid 
 
 To fine-tuning for detection, they apply the multi-task loss, mini-batch sampling, backpropagation through RoI pooling layers, and SGD hyper parameters. 
 
-The network takes as input an imageand a list of R object proposals to score. To test time, R is typically around 2000, although they will consider cases in which it is larger(45k). When using an image pyramid, each RoI os assigned to the scale such that the scaled RoI is closest to 224^2 ixels in area. 
+The network takes as input an imageand a list of R object proposals to score. To test time, R is typically around 2000, although they will consider cases in which it is larger(45k). When using an image pyramid, each RoI os assigned to the scale such that the scaled RoI is closest to 224^2 pixels in area. 
 
 For whole image classification, the time spent computing the fully connected layers is small compared the conv layers. On the contrary, for detectin the number of RoIs to process is large and nearly half of the forward pass time is spent computing the fully connected layers. Large fully connected layers are easily accelerated by compressing them with truncated SVD.
 
