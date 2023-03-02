@@ -16,3 +16,11 @@ Although region-based CNNs were computationally expensive as originally develope
  At each sliding-window location, they simultaneously predict multiple region proposals. So the reg layer has 4k outputs encoding the coordinates of k boxes, and the cls layer outputs 2k scores that estimate probability of object or not object for each proposal. The k proposals are parameterized relative to k reference boxes, which they call _anchors_. An anchor is centered at the sliding window in question,m and is associated with a scale and aspect ratio.
  
  An important property of this approach is that it is _translation invariant_. If one transflates an object in an image, the proposal should translate and the same function should be abke to predict the proposal in either location. As a comparison, the Multibox method uses k0means to generate 800 anchors, which are not translation invariant. The translation invariant property also reduces the model size. So authors expect their method to have less risk of overfitting on small datastes.
+ 
+ For trainign RPNs, they assign a binary class label to each anchor, positive/negative using IoU.
+ (손실함수) 
+ It is possible to optimize for the loss functions of all anchors, but this will bias towards negative samples as they are domninate. Instead, they randomly sample 256 anchors in an image to compute the loss function of a mini-batch, where the sampled positive and negative anchors have a ratio of up to 1:1.
+ 
+ #### Sharing features for RPN and Fast R-CNN
+ 
+ 
