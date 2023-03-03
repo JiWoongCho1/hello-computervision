@@ -83,9 +83,9 @@
 
 - Faster R-CNN(Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015) <A href = "https://github.com/jwyang/faster-rcnn.pytorch"> Code, </A> <A href = "https://arxiv.org/pdf/1506.01497.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/Faster%20R-CNN"> Paper Review</A>
 
-- YOLO V1(You Only Look Once: Unified, Real-Time Object Detection, 2015) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1506.02640.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/YOLO"> Paper Review</A>
+- YOLO V1(You Only Look Once: Unified, Real-Time Object Detection, 2016) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1506.02640.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/YOLO"> Paper Review</A>
 
-- SSD(SSD: Single Shot MultiBox Detector, 2015) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1512.02325.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
+- SSD(SSD: Single Shot MultiBox Detector, 2016) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1512.02325.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
 
 
 ## Segmentation
