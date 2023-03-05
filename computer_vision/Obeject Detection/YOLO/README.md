@@ -2,4 +2,6 @@
 
 They reframe object detection as a single regression problem, straight from image pixels to bounding box coordinates and class probabilities. Using this system, we only look once(YOLO) at an image to predict what objects are present and where they are. YOLO is refreshingly simple. Next figure show that single CNN simultaneously predicts multiple bounding boxes and class probabilities for those boxes. YOLO trains on full images and directly optimizes detection performance. This unified model has several benefits over tranditional methods of object detection. 
 
+(figure1 사진)
+
 First, YOLO is extremly fast. Since authors frame detection as a regression problem they don't need a complex pipeline. Second, YOLO reasons globally about the image when making predictions. Unlikke sliding window and region propoals based techneiques, YOLO sees the entire image during training and test time so it implicitly encodes contextual information about classes as weel as their appearance. Third, YOLO learns generalizable representations of objects. When trained on natural images and tested on artwork, YOLO outperforms top detection methods like DPN and R-CNN by a wide margin
