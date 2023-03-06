@@ -24,6 +24,12 @@ The initial CNN layers extract features from the image while the fully connected
 
 They optimize for sum squared error in the output of their model. They use sum-squared error because it is easy to optimize, however it does not perfectly align with their goal of maximizing average precision. It weights localization error equally with classification error which may not be ideal. Also, in every image many grid cells do not contain any object. This pushes the "confidence" scores of those cells towards zero, often overpowering the gradient from cells that do conatin objects. This can lead to model instability, causing training to diverge early on. To remedy this, they increase the loss from bounding box coordinate predictions and decrease the loss from confidence predictions for boxes that don't contain objects. They use two parameters, lambda_coordinate and lambda_noobj to accomplish this. Sum squared error also equally weights errors in large boxes and small boxes. This error metric should reflect that small deviations in large boxes matter less than in small boxes. To partially address this they predict the squear root of the bounding box width and height instead of the width and height directly. Note that the loss function only penalizes classification error if an object is present in that grid cell. It also only penalizes bounding box coordinate error if that predictior is "responsible" for the ground truth box.
 
+
+#### limitations
+
+First, YOLO imposes strong spatial constraints on bounding box predictions since each grid only predicts two boxes and can only have one class. This spatial constraint limits the number of nearby objects that this model can predict. Second, since the model learns to predict bounding boxes from data, it struggles to generalize to objects in new or unusual aspect ratios or configurations. Third, while authors train on a loss function that approximates detection performance, the loss function treats errors the same in small bounding boxes versus large bounding boxes. A small error in a large box is generally benign but a small error in a small box has a much greate effect on IOU. 
+
+
 ![result](https://user-images.githubusercontent.com/90513931/223004043-e91ed2f2-8bea-4e86-a74c-a39a1a761273.png)
 
 
