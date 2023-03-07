@@ -1,1 +1,6 @@
 ## DeepLab v1
+
+
+Over the past two years DCNNs have pushed the performance of computer vision systems to soaring heights on a broad array of high-level problems, including image classification, object detection, fine-grained categorization. THis success can be partially attributed to the built-in invariance of DCNNs to local image transformations, which underpins their ability to learn hierarchical abstractions of data. While this incariance is clearly desirable for high-level vision tasks. ot can hamper low-level tasks, such as pose estimation, semantic segmentation where theyy want precise localization, rather than abstraction of spatial details.
+
+So they employ atrous(dilated) algorithm originally developed for efficiently computing the undecimated discrete wavelet transform. This allows efficient dense computation of DCNN responses in a scheme substantially simpler than earlier solutions to this problem. Another problem relates to the fact that obtaining object-centric decisions from a classifier requires invariance to spatial transformations, inherently limiting the spatial accuracy of the DCNN model. They boost their model's ability to capture fine details by employing a fully-connected Conditional Random field(CRF). These main advantages of their "DeepLab" systems are speed, accuracy, simplicity.
