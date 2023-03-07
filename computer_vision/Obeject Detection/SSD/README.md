@@ -29,3 +29,13 @@ During training they need to determine which default boxes correspont to a groun
 Previous works have shown that using feature maps from the lower layers can improve semantic segmentation quality because the lower layers capture more fine details of the input objects. Similarly, adding global context pooled from a feature map can help smooth the segmentation results. They use both the lower and upper feature maps for detection. In practice, they can use many more with small computational overhead.
 
 Feature maps from different levels within a network are known to have different receptive field sizes. Fortunately, within the SSD framework, the default boxes do not necessary need to correspond to the actual receptive fields of each layer. They design the tiling of default boxes so that specific feature maps learn to be responsive to particular scales of the objects. After the matching step, most of the default boxes are negatives, especially when the number of possible default boxes is large. This introduces a significant imbalance between the positive and negative training examples. Instead of using all the negative examples, they sort them using the highest confidenceloss for eachc default box and pick the top ones so that the ratio between the negatives and positives is at most 3:1. They found that this leads to faster optimization and a more stable training.
+
+
+#### Results
+
+To understand the lerfr\ormance of SSD model in more detail, they note that SSD can detect various object categories with high quality. Compared to R-CNN, SSD has less localization error, indicating that SSD can localize objects better because it directly learns to regress the object shape and classify object categories instead of using two decoupled steps. However, SSD has more confusions with similar object categories, partly because authors share locations for multiple categories. Also they find that data augmentation and more default bounding box is crutial.
+
+![result1](https://user-images.githubusercontent.com/90513931/223309368-058c1813-c7c7-440c-b842-c38ec7badba7.png)
+
+
+![result2](https://user-images.githubusercontent.com/90513931/223309370-94068bd7-4525-4541-8b38-457d0015b2e2.png)
