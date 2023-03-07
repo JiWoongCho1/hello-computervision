@@ -93,5 +93,5 @@
 ## Segmentation
 
 
-- Deeplab v1(Semantic image segmentation with deep convolutional nets and fully connected CRFs, 2014) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1412.7062.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/SSD"> Paper Review</A>
+- Deeplab v1(Semantic image segmentation with deep convolutional nets and fully connected CRFs, 2014) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1412.7062.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Segmentation/DeepLab%20v1"> Paper Review</A>
 
