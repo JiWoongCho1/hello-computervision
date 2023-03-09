@@ -17,3 +17,7 @@ As illustrated in next figure, DCNN score maps can reliably predict the presence
 
 (figure 2 사진)
 
+
+Tranditionally, conditional random fields(CRFs) have been employed to smooth noisy segmentation maps. In this regime, using short-range CRFs can be deterimental, as out goal should be to recover detailed local structure rather than smooth it. In conjuction to local-range CRFs can potentialy improve localization but still miss thin-structures and typically requires solving an expensive discrete optimization problem. To overcome these limitations of short-range of CRFs, they integrate into their system the fully connected CRF model. 
+
+(energy function, gaussian이미지)
