@@ -11,4 +11,8 @@ Typical AlexNet, VGGNet take fixed sized inputs and produce nonspatial outputs(o
 
 One way to connect coarse outputs to dense pixels is interpolation. For instance, simple bilinear interpolation icomputes each output y{ij} from the nearest four inputs by a linear map that depends only on the relative positions of the input and output cells. In a sense, upsampling with factor 'f' is convolution with a fractional input stride of 1/f. So long as f is integral, a natrual way to upsample is therefore backwards convolution(called deconvolution) with an output stride of f. Such an operation is trivial to implement, since it simply reverses the forward and backward passes of convolution. Note that the deconvolution filter in suvh a layer need not be fixed, but can be learned. In their experiments, they find that in-network upsampling is fast and effective for learning dennse prediction.
 
+
+But the pixel stride at the final prediction layer limits the scale of detail in the upsampled output. They address this by adding links that combine the final prediction layer with lower layers with finer strides. Combining fine layers and coarse layers lets the model make local predictions that respect global structure.
+
 (figure 3 사진)
+
