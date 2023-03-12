@@ -33,7 +33,7 @@ Feature maps from different levels within a network are known to have different 
 
 #### Results
 
-To understand the lerfr\ormance of SSD model in more detail, they note that SSD can detect various object categories with high quality. Compared to R-CNN, SSD has less localization error, indicating that SSD can localize objects better because it directly learns to regress the object shape and classify object categories instead of using two decoupled steps. However, SSD has more confusions with similar object categories, partly because authors share locations for multiple categories. Also they find that data augmentation and more default bounding box is crutial.
+To understand the performance of SSD model in more detail, they note that SSD can detect various object categories with high quality. Compared to R-CNN, SSD has less localization error, indicating that SSD can localize objects better because it directly learns to regress the object shape and classify object categories instead of using two decoupled steps. However, SSD has more confusions with similar object categories, partly because authors share locations for multiple categories. Also they find that data augmentation and more default bounding box is crutial.
 
 ![result1](https://user-images.githubusercontent.com/90513931/223309368-058c1813-c7c7-440c-b842-c38ec7badba7.png)
 
