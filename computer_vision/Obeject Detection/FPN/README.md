@@ -19,3 +19,15 @@ The bottom-up pathway is the feed-forward computation of the backbone ConvNet, w
 #### Top-down pathway and lateral connections
 
 The top-down pathway hallucinates higher resolution features by upsampling spatially coarser, but semantically stronger, feature maps from higher pyramid levels. These features are then enhanced with features from the bottom-up pathway via lateral connections(skip connections). Each lateral connection merges feature maps of the same spatial size from the bottom-up pathway and the top-down pathway. The bottom-up feature map is of lower-level semantics, but its activation are more accurately localized as it was subsampled fewer times. With a coarser-resolution feature map, they upsample the spatial resoluton by a factor of 2(using nearest neighbor upsampling for simplicity). The upsampled map is then merged with the corresponding bottom-up map(which undergoes a 1x1 convolutional layer to reduce channel dimensions) by element-wise addition. This process is iterated until the finest resolution map is generated. Simplicity is central to this design and they have found that the model is robust to many design choices.
+
+(figure 3 사진)
+
+
+
+#### RPN
+
+They adopt their method in RPN for bounding box proposal generation and in Fast-R-CNN for object detection. They adapt RPN by replacing the single-scale feature map with their FPN. They attach a head of the same design(3x3 conv and two sibling 1x1 convs) to each level on their feature pyramid. Because the heads slides densely over all locations in all pyramid levels, it it not necessary to have multi-scale anhors on a specific level. Instead, they assign anchors of a single scale to each level. Formally, they define the anchors to have areas of {32^2, 64^2, 128^2, 256^2, 512^2}. They note that the parameters of the heads are shared across all feature pyramid levels" they have also evalutated the alternative without sharing parameters and observed similar accuracy. The good performance of sharing parameters indicates that all levels of their pyramid shre similar semantic levels. this advantage is analogous to that of using a featurized image pyramid, where a common head classifier can be applied to features computed at any image sale.
+
+#### Feature Pyramid Networks for Fast R-CNN
+
+Fast R-CNN is most commonly performed on a single-scale feature map. To use it with the FPN, they need to assign RoIs of different scales to the pyramid levels. Thus they can adapt the assignment strategy of region-based detectors in the case when they are run on image pyramids. They attach predictor heads to all RoIs of all levels. They simply adopt RoI pooling to extract 7x7 features, and attach two hidden 1024-d fully connected layers before the final classification and bounding box regression layers. Based on these adaptations, they can train and test FastR-CNN on top to the feature pyramid.
