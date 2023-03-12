@@ -11,3 +11,11 @@ The goal of this paper is to naturally leverage the pyramidal shape of a ConvNet
 
 (figure 1 사진)
 
+
+#### Bottom-up pathway
+
+The bottom-up pathway is the feed-forward computation of the backbone ConvNet, which computes a feature hierarchy consisting of feature maps at several scales with a scaling step of 2. There are often many layers producing output maps of the same size and they say these layers are in the same network _stage_. They choose the output of the last layer of each stage as their reference set of feature maps, which they will enrich to create their pyramid. This choice is natrual since the deepest layer of each stage should have the strongest features.
+
+#### Top-down pathway and lateral connections
+
+The top-down pathway hallucinates higher resolution features by upsampling spatially coarser, but semantically stronger, feature maps from higher pyramid levels. These features are then enhanced with features from the bottom-up pathway via lateral connections(skip connections). Each lateral connection merges feature maps of the same spatial size from the bottom-up pathway and the top-down pathway. The bottom-up feature map is of lower-level semantics, but its activation are more accurately localized as it was subsampled fewer times. With a coarser-resolution feature map, they upsample the spatial resoluton by a factor of 2(using nearest neighbor upsampling for simplicity). The upsampled map is then merged with the corresponding bottom-up map(which undergoes a 1x1 convolutional layer to reduce channel dimensions) by element-wise addition. This process is iterated until the finest resolution map is generated. Simplicity is central to this design and they have found that the model is robust to many design choices.
