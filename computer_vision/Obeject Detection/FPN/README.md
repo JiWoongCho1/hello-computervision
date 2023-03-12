@@ -8,3 +8,6 @@ Nevertheless, featurizing each level of an image pyramid has obvious limitations
 The Single Shot Detector(SSD) is one of the first attempts at using a ConvNet's pyramidal. Ideally, the SSD-style pyramid would reuse the multi-scale feature maps from different layers computed in the forward pass and thus come free of cost. But to avoid using low-level  features SSD forgoes reusing already computed layers and instead builds the pyramid starting from high up in the network and then by adding several new layers. Thus it misses the opportunity to reuse the higher-resolution maps of the feature hierarchy. So authors show that these are important for detecting small objects. 
 
 The goal of this paper is to naturally leverage the pyramidal shape of a ConvNet's feature hierarchy while creating a feature pyramid that has strong semeantics at all scales. To achieve this goal, they raly on an architecture that combines low-resolution, semantically strong fetaures with high-resolution, semantically weak features via a top-down pathway and lateral connections. The result is a feature pyramid that has rich semantics at all levels and is build quickly from a single input image scale. They called a Feature Pyramid Network(FPN).
+
+(figure 1 사진)
+
