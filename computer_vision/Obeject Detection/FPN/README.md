@@ -9,7 +9,8 @@ The Single Shot Detector(SSD) is one of the first attempts at using a ConvNet's 
 
 The goal of this paper is to naturally leverage the pyramidal shape of a ConvNet's feature hierarchy while creating a feature pyramid that has strong semeantics at all scales. To achieve this goal, they raly on an architecture that combines low-resolution, semantically strong fetaures with high-resolution, semantically weak features via a top-down pathway and lateral connections. The result is a feature pyramid that has rich semantics at all levels and is build quickly from a single input image scale. They called a Feature Pyramid Network(FPN).
 
-(figure 1 사진)
+![Feature Pyramid Network](https://user-images.githubusercontent.com/90513931/224527634-b5e6f7b6-b9ff-469e-b6ad-b1388b550731.png)
+
 
 
 #### Bottom-up pathway
@@ -20,7 +21,8 @@ The bottom-up pathway is the feed-forward computation of the backbone ConvNet, w
 
 The top-down pathway hallucinates higher resolution features by upsampling spatially coarser, but semantically stronger, feature maps from higher pyramid levels. These features are then enhanced with features from the bottom-up pathway via lateral connections(skip connections). Each lateral connection merges feature maps of the same spatial size from the bottom-up pathway and the top-down pathway. The bottom-up feature map is of lower-level semantics, but its activation are more accurately localized as it was subsampled fewer times. With a coarser-resolution feature map, they upsample the spatial resoluton by a factor of 2(using nearest neighbor upsampling for simplicity). The upsampled map is then merged with the corresponding bottom-up map(which undergoes a 1x1 convolutional layer to reduce channel dimensions) by element-wise addition. This process is iterated until the finest resolution map is generated. Simplicity is central to this design and they have found that the model is robust to many design choices.
 
-(figure 3 사진)
+
+![lateral connection](https://user-images.githubusercontent.com/90513931/224527632-bb6857fa-c148-4010-8cb8-61252281f641.png)
 
 
 
@@ -31,3 +33,6 @@ They adopt their method in RPN for bounding box proposal generation and in Fast-
 #### Feature Pyramid Networks for Fast R-CNN
 
 Fast R-CNN is most commonly performed on a single-scale feature map. To use it with the FPN, they need to assign RoIs of different scales to the pyramid levels. Thus they can adapt the assignment strategy of region-based detectors in the case when they are run on image pyramids. They attach predictor heads to all RoIs of all levels. They simply adopt RoI pooling to extract 7x7 features, and attach two hidden 1024-d fully connected layers before the final classification and bounding box regression layers. Based on these adaptations, they can train and test FastR-CNN on top to the feature pyramid.
+
+
+![performance](https://user-images.githubusercontent.com/90513931/224527633-a76a2029-28b2-4d69-84cb-59d3b7db3826.png)
