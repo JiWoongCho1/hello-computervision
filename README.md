@@ -99,4 +99,4 @@
 
 ## Self Supervised Learning
 
-- SimCLR(A Simple Framework for Contrastive Learning of Visual Representations, 2020) : Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/FPN"> Paper Review</A>
+- SimCLR(A Simple Framework for Contrastive Learning of Visual Representations, 2020) : Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/SimCLR"> Paper Review</A>
