@@ -27,7 +27,7 @@ K.He and H.Sun applied delayed down-sampling to four different CNN architectures
 
 ### Fire module ###
 
-it is composed of 'squeeze' convolutional layer(which has only 1x1 filter), feeding tinto an 'expand' layer that has a mix of 1x1 and 3x3 convolution filters. They expose three tunable dimensions. And they use ReLU, Dropout, not using fully connected layers.
+it is composed of 'squeeze' convolutional layer(which has only 1x1 filter), feeding into an 'expand' layer that has a mix of 1x1 and 3x3 convolution filters. They expose three tunable dimensions. And they use ReLU, Dropout, not using fully connected layers.
 
 ![fire-module](https://user-images.githubusercontent.com/90513931/213103516-01465652-7061-4cf2-94e1-efe4ffa8119d.png)
 
