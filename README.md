@@ -5,7 +5,12 @@
 
 - VGGNet(Very Deep Convolutional Networks for Large Scale Image Resoultion, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/VGGNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.1556.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/VGGNet"> Paper Review</A>
 
-- SPPNet(Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, 2014) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/SPPNet"> Code, </A> <A href = "https://arxiv.org/pdf/1406.4729.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SPPNet"> Paper Review</A>
+- SPPNet(Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, 2014) <A href = "@article{ouyang2018pedestrian,
+  title={Pedestrian-Synthesis-GAN: Generating Pedestrian Data in Real Scene and Beyond},
+  author={Ouyang, Xi and Cheng, Yu and Jiang, Yifan and Li, Chun-Liang and Zhou, Pan},
+  journal={arXiv preprint arXiv:1804.02047},
+  year={2018}
+}"> Code, </A> <A href = "https://arxiv.org/pdf/1406.4729.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/SPPNet"> Paper Review</A>
 
 - GoogleNet(Going deeper with convolutions, 2015) <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/Classification/GoogleNet"> Code, </A> <A href = "https://arxiv.org/pdf/1409.4842.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/GoogleNet"> Paper Review</A> 
 
