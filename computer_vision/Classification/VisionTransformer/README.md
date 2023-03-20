@@ -1,7 +1,7 @@
 ## Vision Transformer
 
 
-Self-attention based architectures, in particular Transformers, have become the model of choice in natural language processing. In computer vision, however, convolutional architectures remain dominat. Therefore, in large-scale image recongition, classic ResNet architecutres are still state of the art. So they experiment with applying a standard Transformer directly to images, with the fewest possible modifications. They find that large scale training trumps inductive bias. Their Vision Transformer attains excellent results when pre-trained at sufficient scale and transferred to tasks with few datapoints.
+Self-attention based architectures, in particular Transformers, have become the model of choice in natural language processing. In computer vision, however, convolutional architectures remain dominant. Therefore, in large-scale image recongition, classic ResNet architecutres are still state of the art. So they experiment with applying a standard Transformer directly to images, with the fewest possible modifications. They find that large scale training trumps inductive bias. Their Vision Transformer attains excellent results when pre-trained at sufficient scale and transferred to tasks with few datapoints.
 
 #### Inductive bias
 
