@@ -11,7 +11,7 @@ In order to efficiently and adpatively process visual information, human visual 
 
 #### Channel attention branch
 
-As each channel contains a specific feature response, they exploit the inter-channel relationshup in the channel branch. To aggregate the feature map in each channel, they take global average pooling on the feature map and produce a channel vector(C x 1 x 1). This vector softly encodes global information in each channel. To estimate attention across channels form the channel vector, they use a multi layer perceptron with one hidden layer.
+As each channel contains a specific feature response, they exploit the inter-channel relationship in the channel branch. To aggregate the feature map in each channel, they take global average pooling on the feature map and produce a channel vector(C x 1 x 1). This vector softly encodes global information in each channel. To estimate attention across channels form the channel vector, they use a multi layer perceptron with one hidden layer.
 
 #### Spatial attention branch
 
