@@ -98,7 +98,7 @@
   
 - AdaIN Style Transfer(Adaptive Instance Normalization, 2017) : <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/AdaIN%20Style%20Transfer.ipynb"> Code ,</A>   <A href = "https://arxiv.org/abs/1703.06868"> Parper Link </A>
 
-- VAE(AutoEncoding Variational Bayes, 2014) : <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/AdaIN%20Style%20Transfer.ipynb"> Code ,</A>   <A href = "https://arxiv.org/pdf/1312.6114.pdf"> Parper Link </A>
+- VAE(AutoEncoding Variational Bayes, 2014) : <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/generative_model"> Code ,</A>   <A href = "https://arxiv.org/pdf/1312.6114.pdf"> Parper Link </A>
 
 
 ## NLP(National Language Processing)
