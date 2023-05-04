@@ -106,5 +106,5 @@
 
 ## Self supervised learning
 
-- SimCLR(A Simple Framework for contrastive learning of visual representation, 2020) : Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
+- SimCLR(A Simple Framework for contrastive learning of visual representation, 2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/SimCLR"> Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> Paper Review</A>
 
