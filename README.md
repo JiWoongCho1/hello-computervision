@@ -108,3 +108,5 @@
 
 - SimCLR(A Simple Framework for contrastive learning of visual representation, 2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/SimCLR"> Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> Paper Review</A>
 
+- MocoV1(Momentum contrast for unsupervised visual representation learning, 2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/MoCoV1"> Code ,</A>  <A href = "https://arxiv.org/pdf/1911.05722.pdf">Paper Link, </A> Paper Review</A>
+
