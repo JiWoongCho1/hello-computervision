@@ -116,7 +116,7 @@ Contents
 ## NLP(National Language Processing) <a name= "NLP"></a>
 - Attention(Neural Machine Translation By Jointly Learning to Align and translate, 2015) : Code ,</A>  <A href = "https://arxiv.org/abs/1409.0473">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
 
-## Self supervised learning <a name= "SSL"></a>
+## Self supervised learning  <a name= "SSL"></a>
 
 - SimCLR(A Simple Framework for contrastive learning of visual representation, 2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/SimCLR"> Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> Paper Review</A>
 
