@@ -130,3 +130,4 @@
 
 - SimSiam(2020) :<A href = "https://github.com/facebookresearch/simsiam"> Code ,</A>  <A href = "https://arxiv.org/abs/2011.10566">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
 
+- DINO(2021) :<A href = "https://github.com/facebookresearch/dino"> Code ,</A>  <A href = "https://arxiv.org/abs/2104.14294">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
