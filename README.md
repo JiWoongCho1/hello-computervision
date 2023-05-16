@@ -4,9 +4,9 @@
 
 - [Image Classification](#image-classification)
 - [Segmentation](#segmentation)
-- [Self-supervised learning](#SSL)
 - [Generative Model](#generative)
 - [Object detection](#detection)
+- [Self-supervised learning](#SSL)
 - [NLP(National Language Processing)](#NLP)
 
 
