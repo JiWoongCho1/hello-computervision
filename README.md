@@ -1,6 +1,6 @@
-This repository is collections of the papers that i read and studied. 
+## This repository is collections of the papers that i read and studied. 
 
-Contents
+# Contents
 
 - [Image Classification](#image-classification)
 - [Segmentation](#segmentation)
@@ -9,6 +9,8 @@ Contents
 - [Object detection](#detection)
 - [NLP](#NLP)
 
+
+-----------------------------------------------------------------------------------
 
 ## Image Classification  <a name= "image-classification"></a>
 
