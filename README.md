@@ -112,3 +112,7 @@
 
 - BYOL(2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/BYOL"> Code ,</A>  <A href = "https://arxiv.org/abs/2006.07733">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/132"> Paper Review </A>
 
+- SwAV(2020) :<A href = "https://github.com/facebookresearch/swav"> Code ,</A>  <A href = "https://arxiv.org/abs/2006.09882">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/134"> Paper Review </A>
+
+- SimSiam(2020) :<A href = "https://github.com/facebookresearch/simsiam"> Code ,</A>  <A href = "https://arxiv.org/abs/2011.10566">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
+
