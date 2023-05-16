@@ -2,8 +2,12 @@ This repository is collections of the papers that i read and studied.
 
 Contents
 
-- [이미지 분류 (Image Classification)](#image-classification)
-- Segmentation(#segmentation)
+- [Image Classification](#image-classification)
+- [Segmentation](#segmentation)
+- [Self-supervised learning](#SSL)
+- [Generative Model](#generative)
+- [Object detection](#detection)
+- [NLP](#NLP)
 
 
 ## Image Classification  <a name= "image-classification"></a>
@@ -59,7 +63,7 @@ Contents
 - ConvNextV2(ConvNextV2: Co-designing and Scaling ConvNets with Masked Autoencoders, 2022) <A href = "https://github.com/facebookresearch/ConvNeXt-V2/tree/main/models"> Code, </A> <A href = "https://arxiv.org/pdf/2301.00808.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/Computer-vision/tree/main/computer_vision/Classification/ConvNextV2"> Paper Review</A> 
 
 
-## Object Detection
+## Object Detection <a name= "detection"></a>
 
 - R-CNN(Rich feature hierarchies for accurate object detection and semantic segmentation, 2014) <A href = "https://github.com/object-detection-algorithm/R-CNN"> Code, </A> <A href = "https://arxiv.org/pdf/1311.2524.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/R-CNN"> Paper Review</A> 
 
@@ -74,14 +78,14 @@ Contents
 - FPN(Feature Pyramid Networks for Object Detection, 2016) <A href = "https://github.com/jwyang/fpn.pytorch"> Code, </A> <A href = "https://arxiv.org/pdf/1612.03144.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Obeject%20Detection/FPN"> Paper Review</A>
 
 
-## Segmentation
+## Segmentation <a name= "segmentation"></a>
 
 
 - Deeplab v1(Semantic image segmentation with deep convolutional nets and fully connected CRFs, 2014) <A href = "https://github.com/abeardear/pytorch-YOLO-v1"> Code, </A> <A href = "https://arxiv.org/pdf/1412.7062.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Segmentation/DeepLab%20v1"> Paper Review</A>
 
 - FCN(Fully Convolutional Networks for Semantic Segmentation, 2014) <A href = "https://github.com/wkentaro/pytorch-fcn"> Code, </A> <A href = "https://arxiv.org/pdf/1411.4038.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Segmentation/FCN"> Paper Review</A>
 
-## Generative Model
+## Generative Model <a name= "generative"></a>
 - GAN(Generative Adversarial Network, 2014) :<A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/GAN.ipynb"> Code ,</A>  <A href = "https://arxiv.org/abs/1406.2661">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/8"> Paper Review</A>
 
 - DCGAN(Deep Convolutional Generative Adversarial Network, 2016) : <A href = "https://github.com/JiWoongCho1/Computer-vision/blob/main/computer_vision/generative_model/DCGAN.ipynb">Code ,</A>  <A href = "https://arxiv.org/abs/1511.06434">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/10"> Paper Review</A>
@@ -109,10 +113,10 @@ Contents
 - VAE(AutoEncoding Variational Bayes, 2014) : <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/generative_model"> Code ,</A>   <A href = "https://arxiv.org/pdf/1312.6114.pdf"> Parper Link </A>
 
 
-## NLP(National Language Processing)
+## NLP(National Language Processing) <a name= "NLP"></a>
 - Attention(Neural Machine Translation By Jointly Learning to Align and translate, 2015) : Code ,</A>  <A href = "https://arxiv.org/abs/1409.0473">Paper Link, </A> <A href = "https://keepgoingrunner.tistory.com/manage/newpost/69?type=post&returnURL=https%3A%2F%2Fkeepgoingrunner.tistory.com%2Fmanage%2Fposts%2F"> Paper Review</A>
 
-## Self supervised learning
+## Self supervised learning <a name= "SSL"></a>
 
 - SimCLR(A Simple Framework for contrastive learning of visual representation, 2020) :<A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Self-Supervised-Learning/SimCLR"> Code ,</A>  <A href = "https://arxiv.org/pdf/2002.05709.pdf">Paper Link, </A> Paper Review</A>
 
