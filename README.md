@@ -128,6 +128,9 @@
 
 - SwAV(2020) :<A href = "https://github.com/facebookresearch/swav"> Code ,</A>  <A href = "https://arxiv.org/abs/2006.09882">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/134"> Paper Review </A>
 
-- SimSiam(2020) :<A href = "https://github.com/facebookresearch/simsiam"> Code ,</A>  <A href = "https://arxiv.org/abs/2011.10566">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
+- SimSiam(Exploring Simple siamese representation learning, 2020) :<A href = "https://github.com/facebookresearch/simsiam"> Code ,</A>  <A href = "https://arxiv.org/abs/2011.10566">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
 
-- DINO(2021) :<A href = "https://github.com/facebookresearch/dino"> Code ,</A>  <A href = "https://arxiv.org/abs/2104.14294">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/137"> Paper Review </A>
+- DINO(Emerging properties in self-supervised vision transformers, 2021) :<A href = "https://github.com/facebookresearch/dino"> Code ,</A>  <A href = "https://arxiv.org/abs/2104.14294">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/138"> Paper Review </A>
+
+- MAE(Masked Autoencoder are scalable vision learners, 2021) :<A href = "https://github.com/facebookresearch/mae"> Code ,</A>  <A href = "https://arxiv.org/abs/2111.06377">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/138"> Paper Review </A>
+- 
