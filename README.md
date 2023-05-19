@@ -133,4 +133,6 @@
 - DINO(Emerging properties in self-supervised vision transformers, 2021) :<A href = "https://github.com/facebookresearch/dino"> Code ,</A>  <A href = "https://arxiv.org/abs/2104.14294">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/138"> Paper Review </A>
 
 - MAE(Masked Autoencoder are scalable vision learners, 2021) :<A href = "https://github.com/facebookresearch/mae"> Code ,</A>  <A href = "https://arxiv.org/abs/2111.06377">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/139"> Paper Review </A>
-- 
+
+- PAWS(Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples, 2021) :<A href = "https://github.com/facebookresearch/suncet"> Code ,</A>  <A href = "https://arxiv.org/pdf/2104.13963.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/139"> Paper Review </A>
+
