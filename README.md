@@ -9,7 +9,7 @@
 - [Generative Model](#generative)
 - [Object detection](#detection)
 - [Self-supervised learning](#selfsupervised)
-- [NLP(National Language Processing)](#nationallanguage)
+- [NLP(National Language Processing)](#Nationallanguage)
 
 
 -----------------------------------------------------------------------------------
