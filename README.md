@@ -91,7 +91,7 @@
 
 - SegNet(SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation, 2015) <A href = "https://github.com/vinceecws/SegNet_PyTorch"> Code, </A> <A href = "https://arxiv.org/pdf/1511.00561.pdf">Paper Link, </A> <A href = "https://github.com/JiWoongCho1/hello-computervision/tree/main/computer_vision/Segmentation/FCN"> Paper Review</A>
 
-- Segformer(SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers, 2021) <A href = "https://github.com/NVlabs/SegFormer"> Code, </A> <A href = "https://arxiv.org/pdf/2105.15203.pdf">Paper Link, </A> <A href = > Paper Review</A>
+- Segformer(SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers, 2021) <A href = "https://github.com/NVlabs/SegFormer"> Code, </A> <A href = "https://arxiv.org/pdf/2105.15203.pdf">Paper Link, </A>  Paper Review
 
 
 ## Generative Model <a name= "generative"></a>
