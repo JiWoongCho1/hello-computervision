@@ -140,5 +140,5 @@
 
 - PAWS(Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples, 2021) :<A href = "https://github.com/facebookresearch/suncet"> Code ,</A>  <A href = "https://arxiv.org/pdf/2104.13963.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/139"> Paper Review </A>
 
-- BEiT(BERT Pre-Training of Image Transformers, 2021) :<A href = "https://github.com/microsoft/unilm/tree/master/beit"> Code ,</A>  <A href = "https://arxiv.org/pdf/2106.08254.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/139"> Paper Review </A>
+- BEiT(BERT Pre-Training of Image Transformers, 2021) :<A href = "https://github.com/microsoft/unilm/tree/master/beit"> Code ,</A>  <A href = "https://arxiv.org/pdf/2106.08254.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/141"> Paper Review </A>
 
