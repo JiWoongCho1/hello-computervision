@@ -145,5 +145,5 @@
 
 - BEiT(BERT Pre-Training of Image Transformers, 2021) :<A href = "https://github.com/microsoft/unilm/tree/master/beit"> Code ,</A>  <A href = "https://arxiv.org/pdf/2106.08254.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/141"> Paper Review </A>
 
-- SimMIM(SimMIM: a Simple Framework for Masked Image Modeling, 2021) :<A href = "https://github.com/microsoft/SimMIM"> Code ,</A>  <A href = "https://arxiv.org/pdf/2111.09886.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/manage/posts/"> Paper Review </A>
+- SimMIM(SimMIM: a Simple Framework for Masked Image Modeling, 2021) :<A href = "https://github.com/microsoft/SimMIM"> Code ,</A>  <A href = "https://arxiv.org/pdf/2111.09886.pdf">Paper Link </A>, <A href = "https://keepgoingrunner.tistory.com/143"> Paper Review </A>
 
